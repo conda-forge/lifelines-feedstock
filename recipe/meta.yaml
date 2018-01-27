@@ -1,6 +1,6 @@
 {% set name = "lifelines" %}
-{% set version = "0.11.2" %}
-{% set sha256 = 'b4e947eaedfa3c76faafc65f878d714836a56b63253bf105c8b73cfb05cc9370' %}
+{% set version = "0.13.0" %}
+{% set sha256 = '606eefb1d9ac07c2fa98a214fe18bc0fdaf9cd5c0f8d34eb084705efb3c36bcd' %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://github.com/CamDavidsonPilon/{{ name }}/archive/v{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
