@@ -1,6 +1,6 @@
 {% set name = "lifelines" %}
-{% set version = "0.14.1" %}
-{% set sha256 = '38d6455cb49ac59bc6449e518f316d853f324853f5117f096b1d4318e64b56e9' %}
+{% set version = "0.14.2" %}
+{% set sha256 = '92c83f28241307c3cd4f6f322d5f08b1c850601217dd7544d86a203e854a37ec' %}
 
 package:
   name: {{ name }}
@@ -14,12 +14,12 @@ source:
 build:
   noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
 
   run:
     - python
