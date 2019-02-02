@@ -24,10 +24,12 @@ requirements:
   run:
     - python
     - setuptools
-    - numpy
-    - scipy
-    - pandas >=0.18
+    - numpy >= 1.14.0
+    - scipy >= 1.0
+    - pandas >=0.20
     - matplotlib >=2.0
+    - autograd >= 1.2
+    - bottleneck >= 1.0
 
 test:
   imports:
