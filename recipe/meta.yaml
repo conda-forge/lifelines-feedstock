@@ -20,11 +20,11 @@ build:
 
 requirements:
   build:
-    - python
+    - python >= 3.6
     - pip
 
   run:
-    - python
+    - python >= 3.6
     - setuptools
     - numpy >=1.14.0
     - scipy >=1.0
