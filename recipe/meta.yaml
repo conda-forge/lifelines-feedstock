@@ -1,7 +1,7 @@
 {% set name = "lifelines" %}
 
 {% set version = "0.20.0" %}
-{% set sha256 = "f430a873d51187f95934dbb41cd7ea0c76e322ced6af4c5f44c14087509730c5" %}
+{% set sha256 = "ad8e5cb3f241b9e03c5e2a0004a16fce7c0aaa733338b522a52cf0d4c7b4a5ea" %}
 
 
 package:
@@ -20,16 +20,16 @@ build:
 
 requirements:
   build:
-    - python >=3.6
+    - python >=3.5
     - pip
 
   run:
-    - python >=3.6
+    - python >=3.5
     - setuptools
     - numpy >=1.14.0
     - scipy >=1.0
-    - pandas >=0.20
-    - matplotlib >=2.0
+    - pandas >=0.23.0
+    - matplotlib >=3.0
     - autograd >=1.2
     - bottleneck >=1.0
 
