@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: Survival analysis in Python, including Kaplan Meier, Nelson Aalen and regression
+Summary: Survival analysis in Python, including Kaplan Meier, Nelson Aalen and regression.
 
 
 
