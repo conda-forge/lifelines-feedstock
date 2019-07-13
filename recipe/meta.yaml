@@ -1,6 +1,6 @@
 {% set name = "lifelines" %}
 
-{% set version = "0.22.0" %}
+{% set version = "0.22.1" %}
 {% set sha256 = "983f3a150197677e523ec6a8a3b9a1150c7d8bc24c20a78cd6b8a4e7f08cf268" %}
 
 
@@ -32,6 +32,7 @@ requirements:
     - matplotlib >=3.0
     - autograd >=1.2
     - bottleneck >=1.0
+    - autograd-gamma >=0.3
 
 test:
   imports:
