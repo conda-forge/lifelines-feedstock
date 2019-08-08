@@ -1,7 +1,5 @@
 {% set name = "lifelines" %}
-
 {% set version = "0.22.2" %}
-{% set sha256 = "2d6df5863554607b1cbc80e4cc95926e0c7467f45ce5b695d0dd5aee549d3a70" %}
 
 
 package:
@@ -11,7 +9,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/CamDavidsonPilon/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 5adfffed6f9267ce6dc03a07398b0e2e2efb2d8b85499448608e420ccaa37bb8
 
 build:
   noarch: python
