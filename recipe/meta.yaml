@@ -1,7 +1,7 @@
 {% set name = "lifelines" %}
 
-{% set version = "0.22.4" %}
-{% set sha256 = "55bdfdd0f336f559a238476872db2c9ed4a8871056b6e16ad889d4b6750af536" %}
+{% set version = "0.22.9" %}
+{% set sha256 = "da8c85827a10d6d28cf08a20234aac51acf34f35508bbd91877e7793f5e1c64c" %}
 
 
 package:
@@ -16,7 +16,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
