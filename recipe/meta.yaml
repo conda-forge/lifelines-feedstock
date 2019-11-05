@@ -21,7 +21,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  post:
+  build:
     - python >=3.5
     - pip
 
