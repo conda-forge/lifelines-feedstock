@@ -37,6 +37,12 @@ requirements:
     - autograd-gamma >=0.3
 
 test:
+  requires:
+    - pytest
+    - pytest-timeout
+  commands:
+    - pip check
+    - pytest --timeout=300 -v --pyargs lifelines
   imports:
     - lifelines
     - lifelines.datasets
