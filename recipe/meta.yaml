@@ -21,7 +21,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  post:
     - python >=3.5
     - pip
 
@@ -38,6 +38,7 @@ requirements:
 
 test:
   requires:
+    - pip
     - pytest
     - pytest-timeout
   commands:
