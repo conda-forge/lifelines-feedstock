@@ -45,7 +45,9 @@ test:
     - lifelines.fitters
     - lifelines.utils
   commands:
-    - pytest ${SRC_DIR}/tests/ --verbose --pyargs lifelines -k test_requirements
+    - ls ${SRC_DIR}
+    - pytest ${SRC_DIR}/lifelines/tests/ --verbose --pyargs lifelines -k test_requirements
+    - ls ${PREFIX}
 
 about:
   home: https://github.com/CamDavidsonPilon/lifelines
