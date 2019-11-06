@@ -37,11 +37,15 @@ requirements:
     - autograd-gamma >=0.3
 
 test:
+  requires:
+    - pytest >=3.3.0
   imports:
     - lifelines
     - lifelines.datasets
     - lifelines.fitters
     - lifelines.utils
+  commands:
+    - pytest --verbose --pyargs lifelines -k "test_requirements"
 
 about:
   home: https://github.com/CamDavidsonPilon/lifelines
