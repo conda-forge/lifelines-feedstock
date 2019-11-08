@@ -1,8 +1,8 @@
 {% set name = "lifelines" %}
 
 
-{% set version = "0.22.9" %}
-{% set sha256 = "da8c85827a10d6d28cf08a20234aac51acf34f35508bbd91877e7793f5e1c64c" %}
+{% set version = "0.22.10" %}
+{% set sha256 = "fc81cb199426f1461076c65595c43666e1c34d89564e44821e0c68057f20bf2f" %}
 
 
 
@@ -29,11 +29,10 @@ requirements:
     - python >=3.5
     - setuptools
     - numpy >=1.14.0
-    - scipy <=1.2.1,>=1.0
+    - scipy >=1.0
     - pandas >=0.23.0
     - matplotlib >=3.0
-    - autograd >=1.2
-    - bottleneck >=1.0
+    - autograd >=1.3
     - autograd-gamma >=0.3
 
 test:
