@@ -1,8 +1,8 @@
 {% set name = "lifelines" %}
 
 
-{% set version = "0.23.9" %}
-{% set sha256 = "11c5025583c1e2bc6475dee80f9c3839a2b3942dfe6f99adea36a1293e265167" %}
+{% set version = "0.24.1" %}
+{% set sha256 = "9167b59455f57b1944dfb3e504d1eff0f6b3c83199d651b1f988826175e41068" %}
 
 
 
@@ -46,7 +46,7 @@ about:
   home: https://github.com/CamDavidsonPilon/lifelines
   license: MIT
   license_file: LICENSE
-  summary: 'Survival analysis in Python, including Kaplan Meier, Nelson Aalen and regression'
+  summary: Survival analysis in Python, including Kaplan Meier, Nelson Aalen and regression
 
 extra:
   recipe-maintainers:
