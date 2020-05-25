@@ -2,7 +2,7 @@
 
 
 {% set version = "0.24.8" %}
-{% set sha256 = "787b376e48c93dd8c7f5bff20b529f00af253bae06071000eba61cee8712891c" %}
+{% set sha256 = "041b18d72dd8dfa9dddc6482c8fdfcd1dcf348055de0e9a48b29d32e413bb36b" %}
 
 
 
