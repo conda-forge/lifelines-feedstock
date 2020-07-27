@@ -1,8 +1,8 @@
 {% set name = "lifelines" %}
 
 
-{% set version = "0.24.15" %}
-{% set sha256 = "bb76d396fa698f1ce1846c12d9751bcb858f2c9cb2ad0b532ca86afd7da4243d" %}
+{% set version = "0.25.0" %}
+{% set sha256 = "fca9dc3783f075153ce7c786d0bedfc85ac66f8b9f5899c04ba5be718d89f39d" %}
 
 
 
@@ -34,6 +34,7 @@ requirements:
     - matplotlib-base >=3.0
     - autograd >=1.3
     - autograd-gamma >=0.3
+    - patsy >=0.5.0
 
 test:
   imports:
