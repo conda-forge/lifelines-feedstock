@@ -1,8 +1,8 @@
 {% set name = "lifelines" %}
 
 
-{% set version = "0.25.4" %}
-{% set sha256 = "f52990f3d0f6fbb6b395360a12ec19cf0d23b5bae684eb09db7cdf4302e99f56" %}
+{% set version = "0.25.5" %}
+{% set sha256 = "a4ea157fc7c7ab485633c4fca76cf28a08a94fc13e29f57b5898332e8cb272bb" %}
 
 
 
