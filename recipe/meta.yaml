@@ -2,7 +2,7 @@
 
 
 {% set version = "0.25.6" %}
-{% set sha256 = "7edb0e08a7c2fcf196e845a98e4bd019d445a2eb83fa4e4d5c0baf7d7876ddc1" %}
+{% set sha256 = "273b4271aafbdbcb330457976c90d4310620daf15cb0ca3cb16e82d3db0749c2" %}
 
 
 
@@ -17,7 +17,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
