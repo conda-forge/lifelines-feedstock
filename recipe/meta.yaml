@@ -1,8 +1,8 @@
 {% set name = "lifelines" %}
 
 
-{% set version = "0.26.0" %}
-{% set sha256 = "73ff0e593bd96874ddd2f06bef811b967aedfd64ecb6d66a2483348abce6cf2e" %}
+{% set version = "0.26.2" %}
+{% set sha256 = "dac982434c9e24d78fb319391375a4302cfca51011ab929fe1d214c4d0be06d1" %}
 
 
 
@@ -12,7 +12,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/CamDavidsonPilon/{{ name }}/archive/{{ version }}.tar.gz
+  url: https://github.com/CamDavidsonPilon/{{ name }}/archive/v{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
