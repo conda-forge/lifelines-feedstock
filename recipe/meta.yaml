@@ -2,7 +2,7 @@
 
 
 {% set version = "0.27.0" %}
-{% set sha256 = "2aa1d73a1ea40ab315355ba6992e504c4d174b0f01fb093dfd6cf6214f924a3d" %}
+{% set sha256 = "1d88e7b532f8be820244f23f97b4f9ab404bc7c25d354486c48b9fd3244beb03" %}
 
 
 
@@ -17,12 +17,12 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
 
   run:
@@ -30,7 +30,7 @@ requirements:
     - setuptools
     - numpy >=1.14.0
     - scipy >=1.2
-    - pandas >=0.23.0
+    - pandas >=1.0.0
     - matplotlib-base >=3.0
     - autograd >=1.3
     - autograd-gamma >=0.3
