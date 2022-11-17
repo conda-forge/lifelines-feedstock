@@ -1,8 +1,8 @@
 {% set name = "lifelines" %}
 
 
-{% set version = "0.27.3" %}
-{% set sha256 = "428c4b1aef3c31522519f8ee6e66406e425199db22927246829632488dc44c58" %}
+{% set version = "0.27.4" %}
+{% set sha256 = "6c4962bbe2ee69e1b88a2c73d95ed981a05a10786465e4230841447ca0d64262" %}
 
 
 
@@ -32,7 +32,7 @@ requirements:
     - scipy >=1.2
     - pandas >=1.0.0
     - matplotlib-base >=3.0
-    - autograd >=1.3
+    - autograd >=1.5
     - autograd-gamma >=0.3
     - formulaic >=0.2.2
 
