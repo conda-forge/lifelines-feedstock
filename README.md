@@ -1,11 +1,11 @@
-About lifelines
-===============
+About lifelines-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lifelines-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/CamDavidsonPilon/lifelines
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lifelines-feedstock/blob/main/LICENSE.txt)
 
 Summary: Survival analysis in Python, including Kaplan Meier, Nelson Aalen and regression
 
