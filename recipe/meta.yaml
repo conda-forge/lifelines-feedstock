@@ -17,17 +17,17 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - setuptools
 
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - numpy >=1.14.0
     - scipy >=1.7
     - pandas >=2.1.0
@@ -37,6 +37,8 @@ requirements:
     - formulaic >=0.2.2
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - lifelines
     - lifelines.datasets
